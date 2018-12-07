@@ -2,8 +2,9 @@ package com.superup.engine.actors;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.graphics.drawable.Drawable;
 
-public abstract class Actor {
+public abstract class Actor extends Drawable {
 	// Defines the default paint
 	private Paint paint;
 	private boolean enabled;

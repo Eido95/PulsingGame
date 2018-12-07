@@ -6,7 +6,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 
-public class SpriteMovingActor extends SimpleMovingActor {
+public abstract class SpriteMovingActor extends SimpleMovingActor {
 	protected Bitmap bitmap;
 	
 	public SpriteMovingActor(Context c, int drawable, int x, int y) {

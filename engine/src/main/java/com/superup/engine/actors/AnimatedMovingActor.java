@@ -5,7 +5,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
 
-public class AnimatedMovingActor extends SpriteMovingActor {
+public abstract class AnimatedMovingActor extends SpriteMovingActor {
 	private Rect sourceRect;	// the rectangle to be drawn from the animation bitmap
 	private int frameNr;		// number of frames in animation
 	private int currentFrame;	// the current frame
