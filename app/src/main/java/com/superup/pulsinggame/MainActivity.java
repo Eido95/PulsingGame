@@ -1,13 +1,16 @@
 package com.superup.pulsinggame;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+import com.superup.engine.GameActivity;
 
+public class MainActivity extends GameActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+
+        this.switchImmersive();
+        this.setContentView(new MainPanel(this));
     }
 }
