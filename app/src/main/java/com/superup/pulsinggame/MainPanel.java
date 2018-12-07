@@ -39,6 +39,9 @@ class MainPanel extends AbstractGamePanel {
         this.addCircle();
     }
 
+    /**
+     * Adds a circle on the center of the screen.
+     */
     private void addCircle() {
         int centerX = this.getWidth() / 2;
         int centerY = this.getHeight() / 2;
